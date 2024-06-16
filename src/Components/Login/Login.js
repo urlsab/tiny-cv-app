@@ -53,7 +53,8 @@ const Login = () => {
             console.log(userInfo);
             console.log(curAuth);
             console.log(password);
-            navigate("/dashboard");    
+            navigate("/dashboard");  
+            // add  
         })
 
         .catch((error) => {
