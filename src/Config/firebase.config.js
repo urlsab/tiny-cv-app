@@ -17,17 +17,3 @@ export const auth = getAuth(app);
 export const firestoreDB = initializeFirestore(app, {
   experimentalForceLongPolling: true
 })
-
-/* 
-
-TO DEPLOY, COMMAND:
-npm start
-[change code]
-[exit npm start = ctrl + c, the press 'y' ]
-npm run build
-[change code]
-[verify index.html of build dir is ok - add ' ' to index.html of build dir inside the url of fonts..]
-firebase deploy
-[check url if code changed]
-
-*/
